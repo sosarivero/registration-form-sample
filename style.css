@@ -102,4 +102,12 @@ p {
 li {
     text-transform: uppercase;
     font-size: 0.8rem;
+    position: relative;
+}
+
+.error {
+    color: red;
+    position: absolute;
+    top: 100%;
+    text-transform: none;
 }
