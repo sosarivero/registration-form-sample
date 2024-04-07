@@ -1,9 +1,6 @@
 @font-face {
-  font-family: "bebrush";
-  src: url("bebrush-webfont.woff2") format("woff2"),
-    url("bebrush-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Norse Bold";
+    src: url("./Norse-Bold.otf");
 }
 
 * {
@@ -28,7 +25,7 @@
 
 .banner {
   background-color: rgba(0, 0, 0, 0.5);
-  height: 12rem;
+  height: 128px;
   position: relative;
   top: 10vh;
   display: flex;
@@ -36,10 +33,12 @@
   align-items: center;
 }
 
+
+
 h1 {
   color: white;
-  font-family: "bebrush";
-  font-size: 3rem;
+  font-family: "Norse Bold";
+  font-size: 4rem;
 }
 
 ul {
