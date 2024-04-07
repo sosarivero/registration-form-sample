@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Norse Bold";
-    src: url("./Norse-Bold.otf");
+  font-family: "Norse Bold";
+  src: url("./Norse-Bold.otf");
 }
 
 * {
@@ -13,6 +13,7 @@
   height: 100vh;
   width: 100vw;
   flex-wrap: wrap;
+  background-color: #f9fafb;
 }
 
 .img-container {
@@ -33,8 +34,6 @@
   align-items: center;
 }
 
-
-
 h1 {
   color: white;
   font-family: "Norse Bold";
@@ -45,8 +44,49 @@ ul {
   list-style: none;
 }
 
+form,
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+section {
+  display: flex;
+  gap: 48px;
+}
+
+ul {
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+  padding-left: 24px;
+}
+
 .right {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   /* Need this so that the side-hero doesn't become too big. */
   flex-grow: 2;
+}
+
+button {
+  margin: 24px 24px 0px 24px;
+  max-width: 200px;
+  padding: 8px;
+}
+
+input {
+  border-radius: 2px;
+  padding: 4px;
+  border: black 1px solid;
+}
+ul,
+p {
+  padding-left: 24px;
+}
+
+li {
+    text-transform: uppercase;
+    font-size: 0.8rem;
 }
