@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "bebrush";
+  src: url("bebrush-webfont.woff2") format("woff2"),
+    url("bebrush-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+.img-container {
+  background-image: url("./cover-img.jpg");
+  background-size: cover;
+  min-width: 33vw;
+  /* So that it grows when it wraps */
+  flex-grow: 1;
+}
+
+.banner {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 12rem;
+  position: relative;
+  top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-family: "bebrush";
+  font-size: 3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.right {
+  display: flex;
+  /* Need this so that the side-hero doesn't become too big. */
+  flex-grow: 2;
+}
