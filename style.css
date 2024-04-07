@@ -111,3 +111,9 @@ li {
     top: 100%;
     text-transform: none;
 }
+
+a {
+    color: #578288;
+    font-weight: bolder;
+    text-decoration: none;
+}
